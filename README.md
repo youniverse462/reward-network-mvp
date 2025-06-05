@@ -107,6 +107,7 @@ reward-network-mvp/
 ### Voraussetzungen
 - Python 3.10+
 - Node.js + Solidity Compiler (für Smart Contract Testing)
+- Apify TikTok Scraper
 
 ### Installation
 ```bash
