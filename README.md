@@ -143,6 +143,69 @@ python backend/webhook_contract_trigger.py
 python backend/apify_tiktok_workflow.py
 ```
 
+# Flask Webhook Simulator
+
+A webhook simulator for testing smart contract triggers without Web3 integration.
+
+## Features
+- Rate limiting
+- Request validation
+- Logging
+- Environment configuration
+- JSON payload support
+
+## Setup
+1. Clone the repository
+```bash
+git clone https://github.com/youniverse462/reward-network-mvp.git
+cd reward-network-mvp
+```
+
+2. Create virtual environment
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+4. Configure environment variables
+Create a `.env` file with:
+```
+OPENAI_API_KEY=your_key_here
+WEB3_PROVIDER=your_provider_here
+CONTRACT_ADDRESS=your_contract_here
+```
+
+5. Run the application
+```bash
+python app.py
+```
+
+## API Documentation
+### POST /api/trigger-contract
+Simulates a contract trigger event.
+
+**Request Body:**
+```json
+{
+    "trigger": "follower_target_reached",
+    "data": "your_data_here"
+}
+```
+
+**Response:**
+```json
+{
+    "status": "success",
+    "message": "Smart contract trigger simulated",
+    "timestamp": "2025-06-05T12:00:00.000Z"
+}
+```
+
 ## 📜 Lizenz
 MIT – Open Source & Community-powered.
 
