@@ -3,9 +3,9 @@ The People's Wealth Engine
 
 # Whitepaper: The People's Wealth Engine [cite: 1]
 
-**Project Name:** (Placeholder) [cite: 1]
+**Project Name:** 
 
-"From Scroll to Soar." [cite: 1]
+The People's Wealth Engine
 
 ## Vision
 
